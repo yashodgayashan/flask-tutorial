@@ -5,7 +5,7 @@ app.static_folder = 'static'
 
 
 @app.route("/")
-def hello():
+def index():
     return render_template('index.html')
 
 
